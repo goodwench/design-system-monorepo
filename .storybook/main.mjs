@@ -15,5 +15,5 @@ const config = {
   staticDirs: ["../public"],
 };
 
-module.exports = config;
+export default config;
 

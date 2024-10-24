@@ -42,8 +42,11 @@ next-env.d.ts
 
 *storybook.log
 
-
 .nx/cache
 .nx/workspace-data
 
 storybook-static
+
+# Parcel
+.parcel-cache
+lerna-debug.log
