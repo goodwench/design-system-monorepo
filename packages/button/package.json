@@ -2,10 +2,11 @@
   "name": "faux-button",
   "version": "1.0.4",
   "private": false,
-  "main": "src/index.html",
+  "license": "MIT",
+  "main": "dist/index.js",
   "scripts": {
-    "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "dev": "parcel src/index.js",
+    "build": "parcel build src/index.js"
   },
   "dependencies": {
     "react": "^18.3.1",
