@@ -1,5 +1,5 @@
 {
-  "name": "button",
+  "name": "faux-button",
   "version": "1.0.3",
   "private": false,
   "main": "src/index.html",
@@ -11,5 +11,5 @@
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
-  "gitHead": "afba520c88fa6d180d0776e53e25d85e8be518a6"
+  "gitHead": "cfa835dc94f5d9fb00abbd2ea40c8030880d4a72"
 }
