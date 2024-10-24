@@ -1,0 +1,40 @@
+{
+  "button": {
+    "root": "packages/button",
+    "targets": {
+      "build": {
+        "executor": "@nrwl/workspace:run-commands",
+        "options": {
+          "command": "yarn build",
+          "cwd": "packages/button"
+        }
+      },
+      "dev": {
+        "executor": "@nrwl/workspace:run-commands",
+        "options": {
+          "command": "yarn dev",
+          "cwd": "packages/button"
+        }
+      }
+    }
+  },
+  "$schema": "./node_modules/nx/schemas/nx-schema.json",
+  "defaultBase": "main",
+  "plugins": [
+    {
+      "plugin": "@nx/eslint/plugin",
+      "options": {
+        "targetName": "lint"
+      }
+    },
+    {
+      "plugin": "@nx/storybook/plugin",
+      "options": {
+        "serveStorybookTargetName": "storybook",
+        "buildStorybookTargetName": "build-storybook",
+        "testStorybookTargetName": "test-storybook",
+        "staticStorybookTargetName": "static-storybook"
+      }
+    }
+  ]
+}

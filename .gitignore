@@ -9,6 +9,7 @@
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
+node_modules
 
 # testing
 /coverage
@@ -38,3 +39,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+*storybook.log
+
+
+.nx/cache
+.nx/workspace-data
+
+storybook-static
